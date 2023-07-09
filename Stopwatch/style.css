@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(110deg, #09203F, #537895);
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+.wraper {
+    /* position: relative; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* border: 2px solid black; */
+    min-width:600px;
+    /* margin-left: 190px; */
+    /* margin-top: 10%; */
+    width: 70%;
+    height: auto;
+    background-color: rgba(7, 169, 250, 0.124);
+    box-shadow: 0px 2px 5px 8px rgba(0, 0, 0, 0.431)  ;
+    border-radius: 10px;
+}
+/* .wraper{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+} */
+
+.card {
+   /* text-align: center; */
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 5px; */
+    /* margin-top: 0px; */
+}
+
+.card>h1 {
+   
+    margin-bottom:40px;
+    /* margin-left: 120px; */
+    font-size: 40px;
+    font-family: serif;
+    color: white;
+    text-align: center;
+   
+}
+
+.card>p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: serif;
+    color: white;
+    background-color: #0e0a1ed5;
+    height: 180px;
+    width: 180px;
+    margin-left: 120px;
+    border-radius: 50%;
+    /* transition: 3s ; */
+    animation: mymove 3s infinite;
+    /* border: 2px solid white; */
+
+}
+
+input[type="button"]{
+
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(213, 238, 236, 0.716);
+    border: none;
+    border-radius: 4px;
+    height: 40;
+    width: 120px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} 
+.wraper {
+text-align: center;
+/* margin-right: 20%; */
+}
+
+input[type="button"]:hover{
+ cursor: pointer;
+ color: white;
+ background-color: rgba(0, 255, 255, 0.274);
+ box-shadow: 0px 1px 5px 4px rgba(0, 0, 0, 0.83);
+ transition: 1.5s;
+}
+
+@keyframes mymove {
+   50%{
+        box-shadow: 0px 3px 10px 12px rgba(117, 152, 18, 0.826);
+    }
+}
